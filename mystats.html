@@ -2,6 +2,22 @@
 <html>
     <head>
         <title>myStats file</title>
+        <style>
+            table {
+                border-collapse: collapse;
+                width: 80%;
+                margin: 20px auto;
+            }
+    
+            table, th, td {
+                border: 1px solid black;
+            }
+    
+            th, td {
+                padding: 10px;
+                text-align: left;
+            }
+        </style>
     </head>
     <body>
         <h1>Prudhvi Mohan Cherukupalli</h1>    
@@ -14,6 +30,54 @@
         I have a deep love for Fish Biriyani because there we can get fresh fish directly from the beach, and the spices and preparation process are very interesting. Having the Fish Biriyani while seated at the seashore was a next-level experience. 
         The combination of the savory fish, aromatic spices, and the soothing sound of the waves made it a culinary delight and an unforgettable dining experience.
     </p>
-    <img src="fishbiriryani.jpg" alt="Delicious Fish Biriyani" width="400" height="400">
+    <p style="display: flex; justify-content: center;">
+    <img src="fishbiriryani.jpg" alt="Delicious Fish Biriyani" width="600" height="400" />
+    </p>
+    <hr>
+    <h2>Recommended Sports</h2>
+    <p>
+        Here are some sports that I would recommend trying for a healthy and active lifestyle:
+    </p>
+    <table>
+        <tr>
+            <th>Sport Name</th>
+            <th>Reason to Recommend</th>
+            <th>Weekly Hours</th>
+        </tr>
+        <tr>
+            <td>Cricket</td>
+            <td>Great for improving coordination and team dynamics.</td>
+            <td>5-7 hours</td>
+        </tr>
+        <tr>
+            <td>BaskectBall</td>
+            <td>Excellent for cardiovascular health and team dynamics.</td>
+            <td>3-5 hours</td>
+        </tr>
+        <tr>
+            <td>Batminten</td>
+            <td>Perfect for exploring nature and staying fit.</td>
+            <td>6-8 hours</td>
+        </tr>
+        <tr>
+            <td>Swimming</td>
+            <td>Low-impact exercise that engages the whole body.</td>
+            <td>2-5 hours</td>
+        </tr>
+    </table>
+    <hr>
+    <h3>Code Fencing with stack overflow refference</h3>
+    <blockquote cite="https://stackoverflow.com/questions/2155453/jquery-toggle-text">
+        Toggle Text</blockquote>
+    <a href="https://stackoverflow.com/questions/2155453/jquery-toggle-text"
+        target="_blank">Article in Stackoverflow</a>
+    <pre>
+        $("#more-less-options-button").click(function() {
+            var txt = $("#extra-options").is(':visible') ? 'more options' : 'less options';
+            $("#more-less-options-button").text(txt);
+            $("#extra-options").slideToggle();
+       });
+    </pre>
+    <a href="https://css-tricks.com/snippets/jquery/toggle-text/" target="_blank">Source of Snippet</a>
     </body>
 </html>
